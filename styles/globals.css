@@ -1,16 +1,13 @@
 html,
 body {
-  padding: 0;
-  margin: 0;
+  overflow-x: hidden;
+  background-color:  #f9f7b5;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+:root{
+  --color: grey;
+  --background-color: rgb(253, 236, 189);
 }
-
-* {
-  box-sizing: border-box;
-}
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400&family=Open+Sans:wght@300;400&family=Quicksand:wght@500&family=Titan+One&display=swap');
